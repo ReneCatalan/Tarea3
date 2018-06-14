@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+    <!-- Bootstrap Patrones CSS -->
+    <style>
+      .color1{background-color: #009933;}
+      .color2{background-color: #33cc33;}
+      .color3{background-color: #ccffcc;}
+      .contenedor{display: -webkit-flex;
+                  display: flex;
+                  -webkit-flex-flow: row wrap;
+                  flex-flow: row wrap;
+                  width: 100%;}
+      .columna1{border-style: solid;
+                width: 100%;}
+      .columna2{border-style: solid;
+                width: 100%;}
+      .columna3{border-style: solid;
+                width: 100%;}
+      @media screen and (max-width: 2000px){
+        .columna1{
+          width: 60%;
+          -webkit-order: 2;
+          order: 2;
+        }
+        .columna2{
+          width: 20%;
+          -webkit-order: 1;
+          order: 1;
+        }
+        .columna3{
+          width: 20%;
+          -webkit-order: 3;
+          order: 3;
+        }
+        .contenedor{
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+      @media screen and (max-width: 991.98px){
+        .columna1{
+          width: 70%;
+          -webkit-order: 2;
+          order: 2;
+        }
+        .columna2{
+          width: 30%;
+          -webkit-order: 1;
+          order: 1;
+        }
+        .columna3{
+          width: 100%;
+          -webkit-order: 3;
+          order: 3;
+        }
+        .contenedor{
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+      @media screen and (max-width: 767.98px){
+        .columna1{
+          width: 100%;
+          -webkit-order: 1;
+          order: 1;
+        }
+        .columna2{
+          width: 100%;
+          -webkit-order: 2;
+          order: 2;
+        }
+        .columna3{
+          width: 100%;
+          -webkit-order: 3;
+          order: 3;
+        }
+        .contenedor{
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+      @media screen and (max-width: 575.98px){
+        .columna1{
+          width: 100%;
+          -webkit-order: 1;
+          order: 1;
+        }
+        .columna2{
+          width: 100%;
+          -webkit-order: 2;
+          order: 2;
+        }
+        .columna3{
+          width: 100%;
+          -webkit-order: 3;
+          order: 3;
+        }
+        .contenedor{
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+    </style>
+
+    <title>Tare3</title>
+  </head>
+  <body>
+
+    <h1>Tarea 3</h1>
+
+    <div class="contenedor">
+      <section class="columna1 color1">1</section>
+      <section class="columna2 color2">2</section>
+      <section class="columna3 color3">3</section>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
